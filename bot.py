@@ -1,7 +1,7 @@
 import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 TOKEN = "1773149086:AAHNVvFpfC4Yk0eIJFns8jRID-ToWo84HvQ"
-
+# bot name is @nlp_to_sql_bot
 
 updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
